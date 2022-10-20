@@ -14,4 +14,4 @@ EXPOSE 3000
 
 CMD ["/latihan-ci-cd"]
 
-COPY website/ /usr/share/nginx/html
+COPY static/ /usr/share/nginx/html
