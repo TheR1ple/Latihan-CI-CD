@@ -1,0 +1,106 @@
+@import url();
+*, html{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+section{
+    height: 100vh;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: coral;
+}
+
+.container-menu{
+    height: 58px;
+    width: 100%;
+    background-color: lemonchiffon;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.menu-ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+
+.menu-li:hover{
+    background-color: coral;
+    border-radius: 8px;
+}
+
+.menu-li:hover>a{
+    color: lemonchiffon;
+}
+
+.menu-li{
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu-x{
+    text-decoration: none;
+    color: coral;
+    font-size: 3,5 cm;
+    font-weight: 1000;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: coral;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 1000;
+    font-size: 5 cm;
+}
+
+.container-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lemonchiffon;
+    height: 58px;
+    text-align: center;
+    flex-direction: column;
+}
+.container-proto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lemonchiffon;
+    height: 58px;
+    text-align: center;
+    flex-direction: column;
+}
+.container-contak{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lemonchiffon;
+    height: 58px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.atas{
+    position: fixed;
+    bottom: 10px;
+    right: 1pc;
+    background-color: lemonchiffon;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vh;
+}
